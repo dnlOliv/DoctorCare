@@ -292,18 +292,6 @@ body.menu-expanded button path{
 
 /* ======= HEADER =========================== */
 
-#home::before{ /* "before" se refere ao que vem antes do conteúdo */
-  content: "";
-  width: 100%;
-  height: calc(76% + var(--nav-heigth));
-  background-color: var(--primary-color-light);
-  display: block; /* display block aceita width e height, ao contrário do inline, que não aceita */
-  position: absolute; /* sobrepõe o conteúdo não se acabando nos limites do bloco */
-  top: 0;
-  left: 0;
-  z-index: -1;  /* padrão: 0 */
-} 
-
 #home .button{
   margin-inline: auto;
   margin-bottom: 6rem;
