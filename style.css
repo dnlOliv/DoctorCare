@@ -295,7 +295,7 @@ body.menu-expanded button path{
 #home::before{ /* "before" se refere ao que vem antes do conteúdo do header */
   content: "";
   width: 100%;
-  height: calc(80% + var(--nav-heigth));
+  height: calc(100% + var(--nav-heigth));
   background-color: var(--primary-color-light);
   display: block; /* display block aceita width e height, ao contrário do inline, que não aceita */
   position: absolute; /* sobrepõe o conteúdo não se acabando nos limites do bloco */
